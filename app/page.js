@@ -11,7 +11,7 @@ export default function Home() {
       <>
         <div className="flex flex-col items-center my-10">
             <div>
-                <Image src="/logo.svg" alt="Logo" className="opacity-80 border-2" width="60" height="60"></Image>
+                <Image src="/logo.svg" alt="Logo" className="opacity-80 border" width="60" height="60"></Image>
             </div>
 
             <Message />
