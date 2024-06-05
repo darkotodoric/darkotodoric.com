@@ -9,7 +9,7 @@ export default function Box({ href, icon, title, description }) {
             whileInView={{ opacity: 1, scale: 1 }}
             whileHover={{ scale: 1.1 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.3 }}
+            transition={{ duration: 0.5 }}
         >
             <div className="bg-white rounded-md p-3 mr-3 float-left text-primary">
                 { icon }
