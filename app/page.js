@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { FaGithub, FaLinkedin, FaMedium, FaDev, FaInstagram, FaHackerrank } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaMedium, FaDev, FaInstagram, FaHackerrank, FaEnvelope } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { SiMonkeytype } from "react-icons/si";
 import Box from "./components/box";
@@ -23,6 +23,7 @@ export default function Home() {
             <Box href="https://x.com/onlytodoric" icon={<FaXTwitter size="30" />} title="X" description="where you can hear me" ></Box>
             <Box href="https://www.hackerrank.com/darkotodoric/" icon={<FaHackerrank size="30" />} title="HackerRank" description="where you can see a bit of my superpower" ></Box>
             <Box href="https://monkeytype.com/profile/darkotodoric" icon={<SiMonkeytype size="30" />} title="Monkeytype" description="where you can see my speed" ></Box>
+            <Box href="mailto:contact@darkotodoric.com" icon={<FaEnvelope size="30" />} title="Contact" description="where you can email me" ></Box>
 
             <div className="opacity-35 mt-20">
                 Code is open source on my GitHub
