@@ -17,10 +17,10 @@ export default function Home() {
             <Message />
             <Box href="https://github.com/darkotodoric" icon={<FaGithub size="30" />} title="GitHub" description="where I build software" ></Box>
             <Box href="https://www.linkedin.com/in/darkotodoric/" icon={<FaLinkedin size="30" />} title="LinkedIn" description="where we can connect" ></Box>
+            <Box href="https://x.com/onlytodoric" icon={<FaXTwitter size="30" />} title="X" description="where you can hear me" ></Box>
             <Box href="https://medium.com/@darkotodoric" icon={<FaMedium size="30" />} title="Medium" description="where words flow" ></Box>
             <Box href="https://dev.to/darkotodoric" icon={<FaDev size="30" />} title="DEV" description="where knowledge spreads" ></Box>
             <Box href="https://www.instagram.com/onlytodoric/" icon={<FaInstagram size="30" />} title="Instagram" description="where I share my life" ></Box>
-            <Box href="https://x.com/onlytodoric" icon={<FaXTwitter size="30" />} title="X" description="where you can hear me" ></Box>
             <Box href="https://www.hackerrank.com/darkotodoric/" icon={<FaHackerrank size="30" />} title="HackerRank" description="where you can see a bit of my superpower" ></Box>
             <Box href="https://monkeytype.com/profile/darkotodoric" icon={<SiMonkeytype size="30" />} title="Monkeytype" description="where you can see my speed" ></Box>
             <Box href="mailto:contact@darkotodoric.com" icon={<FaEnvelope size="30" />} title="Contact" description="where you can email me" ></Box>
